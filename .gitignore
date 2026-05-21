@@ -1,0 +1,139 @@
+# Python Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environment Variables (IMPORTANT - Never commit!)
+.env
+.env.local
+.env.*.local
+sample.env
+*.env
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+
+# OS Files
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Testing and Coverage
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IPython
+.ipython/
+profile_default/
+ipython_config.py
+
+# Local Files
+*.log
+*.pot
+*.mo
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Ollama Local Files (Optional)
+ollama/
+.ollama/
+
+# API Keys and Credentials
+secrets.json
+credentials.json
+*.pem
+*.key
+*.crt
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+
+# PDF and Bill Files (Optional - if you want to keep them local)
+rent_bill.pdf
+research_output.txt
+bill_details.txt
+
+# Node modules (if using npm)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Package Manager Lock Files (Optional - only if not wanting to commit)
+# poetry.lock
+# Pipfile.lock
+
+# VS Code Workspace Settings
+.vscode/settings.json
+.vscode/launch.json
+
+# Mac Specific
+.AppleDouble
+.LSOverride
+.DocumentRevisions-V100
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows Specific
+$RECYCLE.BIN/
+ehthumbs.db
+Thumbs.db
